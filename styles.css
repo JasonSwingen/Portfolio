@@ -1,0 +1,56 @@
+/***********************************************************
+Custom BootStrap StyleSheet 
+***********************************************************/
+
+/* move special fonts to HTML head for better performance */
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+
+/* fix bs3 horizontal scrollbar bug */
+.row { margin: 0; padding: 0 }
+
+.icon-bar {
+   background-color:#fff;
+}
+/***********************************************************
+Main Components - Navbar, Sidebar, Footer, Widgets
+***********************************************************/
+
+html,body {width: 100%; height: 100%; font-family: Arial,sans-serif;}
+/*.navbar-inverse {box-shadow: 0px 6px 10px #B0B0B0;} */
+.navbar {margin-bottom: 0px;}
+.navbar-brand {font-size: 32px; float: left;}
+.navbar-nav {font-size: 26px; height: 50px;}
+.navbar-inverse .navbar-nav li a        {height: 55px; margin: 0px 0px 0px 0px;}
+.navbar-inverse .navbar-nav li a:hover  {height: 55px; margin: -3px 0px 3px 0px; color:#fff;}
+.navbar-inverse .navbar-nav li a:focus  {height: 60px; margin: -3px 0px 3px 0px; color:#fff;}
+.navbar-inverse .navbar-nav li a:active {height: 50px; margin: 0px 0px 0px 0px; color:#fff; box-shadow: inset 0px 5px 30px #404040; background-color: #000;}
+.navbar-inverse .navbar-nav .active a   {height: 50px; margin: 0px 0px 0px 0px; background-color: #080808;}
+.sidebar {width: 20%; max-width: 246px; height: 100%; z-index: 50; background-color: #505050; box-shadow: 6px 0px 20px #eee; float: left; margin-top: 50px; position: fixed;}
+.widget {width: 95%; min-width: 40px; min-height: 50px; float: right; background-color: #eee; margin: 0px auto; z-index: 70; clear: both; overflow: hidden; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
+.articles {list-style: none; min-width: 40px; float: right; overflow: hidden;}
+.main {width: 90%; float: right;}
+.jumbotron {width: 100%; height: 500px; float: right; margin: 0px;}
+.callout {width: 100%; height: 600px; float: right; background: url("C:/Users/Jason/Documents/Development/Portfolio/img/IMG_8257.jpg") no-repeat center center fixed; !important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; opacity:0.7; filter: alpha(opacity=70); /* For IE8 and earlier */}
+footer {width: 100%; height: 400px; float: right; background: black;}
+
+/***********************************************************
+Main Content - Jumbotron, 
+***********************************************************/
+
+/***********************************************************
+Social Media Buttons
+***********************************************************/
+.socialmedia {width: 100%; float: right; margin: 0px 0px 0px 0px; clear: both;}
+.socialmedia ul {width: 100%; padding-left: 12px;}
+.socialmedia ul li {display: inline-block}
+.socialmedia ul li a {}
+.facebook {background: url("C:/Users/Jason/Documents/Development/Portfolio/img/spice-social-gadget-sprite_50.png") no-repeat 0 -82px; height: 40px; width: 40px; display: block; overflow: hidden; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
+.facebook:hover {background-position: 0px -42px;}
+.twitter {background: url("C:/Users/Jason/Documents/Development/Portfolio/img/spice-social-gadget-sprite_50.png") no-repeat -336px -82px; height: 40px; width: 40px; display: block; overflow: hidden; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
+.twitter:hover {background-position: -336px -42px;}
+.googleplus {background: url("C:/Users/Jason/Documents/Development/Portfolio/img/spice-social-gadget-sprite_50.png") no-repeat -126px -82px; height: 40px; width: 40px; display: block; overflow: hidden; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
+.googleplus:hover {background-position: -126px -42px;}
+.linkedin {background: url("C:/Users/Jason/Documents/Development/Portfolio/img/spice-social-gadget-sprite_50.png") no-repeat -168px -82px; height: 40px; width: 40px; display: block; overflow: hidden; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
+.linkedin:hover {background-position: -168px -42px;}
+.pinterest {background: url("C:/Users/Jason/Documents/Development/Portfolio/img/spice-social-gadget-sprite_50.png") no-repeat -210px -82px; height: 40px; width: 40px; display: block; overflow: hidden; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s;}
+.pinterest:hover {background-position: -210px -42px;}
